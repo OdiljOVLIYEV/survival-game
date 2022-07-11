@@ -3,6 +3,7 @@
 --- !u!1102 &-8931956671907957814
 AnimatorState:
   serializedVersion: 6
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
