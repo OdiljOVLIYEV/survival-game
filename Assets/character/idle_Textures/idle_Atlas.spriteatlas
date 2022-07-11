@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: idle_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: ef5d76e919ae737479a20c25367225bb, type: 3}
+    - {fileID: 2800000, guid: 2e00bcf22fbf87144920161b132217ae, type: 3}
+    - {fileID: 2800000, guid: 3a5adceba845f374f9d777df655c6e79, type: 3}
+    - {fileID: 2800000, guid: eb007cb756c3ce340893419c6f51e080, type: 3}
+    - {fileID: 2800000, guid: 3752a74c27dd52e4db8a8f613d58efeb, type: 3}
+    - {fileID: 2800000, guid: 0d81a1abf62b7d94a8c3051be704248e, type: 3}
+    - {fileID: 2800000, guid: f11a52ec9be7602429375672a08bfce7, type: 3}
+    - {fileID: 2800000, guid: e684dcf1b6fc7004baa60f76afb4808e, type: 3}
+    - {fileID: 2800000, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3232276068272150754, guid: e684dcf1b6fc7004baa60f76afb4808e, type: 3}
+  - {fileID: -6365657124307431345, guid: e684dcf1b6fc7004baa60f76afb4808e, type: 3}
+  - {fileID: -5488137945350207098, guid: e684dcf1b6fc7004baa60f76afb4808e, type: 3}
+  - {fileID: -7670438834444436177, guid: 2e00bcf22fbf87144920161b132217ae, type: 3}
+  - {fileID: -8395226341229142561, guid: eb007cb756c3ce340893419c6f51e080, type: 3}
+  - {fileID: 3945512755767747900, guid: ef5d76e919ae737479a20c25367225bb, type: 3}
+  - {fileID: -5032069814162963849, guid: ef5d76e919ae737479a20c25367225bb, type: 3}
+  - {fileID: 4957864613835654088, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -1822613323893375605, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 3639646627959288018, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 4134470982481670237, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -1263573863819490191, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 7437712810571523569, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -583960610714688044, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -898639053329382019, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 7458940157792330750, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 5705251532562227289, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 1690286288046967238, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -1399624327711169782, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -5357680909130784801, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 6876705376049119537, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 8961321968670009713, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -5673618120071735642, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -6317339052227273607, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 8889010499501632577, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: 497696812452471379, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -4202001714812480543, guid: 100a456a4bfd6e84eb13b4ea75aa8ef5, type: 3}
+  - {fileID: -2051806757058933141, guid: 0d81a1abf62b7d94a8c3051be704248e, type: 3}
+  - {fileID: 8602337822535463475, guid: 3a5adceba845f374f9d777df655c6e79, type: 3}
+  - {fileID: 2350632813872090584, guid: 3a5adceba845f374f9d777df655c6e79, type: 3}
+  - {fileID: 2733825932290515065, guid: 3752a74c27dd52e4db8a8f613d58efeb, type: 3}
+  - {fileID: -1967221534800643161, guid: 3752a74c27dd52e4db8a8f613d58efeb, type: 3}
+  - {fileID: 4157595169170118822, guid: f11a52ec9be7602429375672a08bfce7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Pants Upper Leg L
+  - Pants Upper Leg R
+  - Pants Hip
+  - Eyebrow
+  - Facial Hair
+  - Ear L
+  - Ear R
+  - Upper Arm L
+  - Lower Arm L
+  - Upper Arm R
+  - Head
+  - Upper Leg R
+  - Neck
+  - Upper Leg L
+  - Hand R 0
+  - Hand R 1
+  - Hand L 0
+  - Hand L 1
+  - Lower Leg L
+  - Lower Leg F
+  - Foot R
+  - Lower Leg R
+  - Body
+  - Foot L
+  - Foot F
+  - Hip
+  - Lower Arm R
+  - Mouth F
+  - Eyes B
+  - Eyes F
+  - Hair B
+  - Hair F
+  - Nose
+  m_Tag: idle_Atlas
+  m_IsVariant: 0
