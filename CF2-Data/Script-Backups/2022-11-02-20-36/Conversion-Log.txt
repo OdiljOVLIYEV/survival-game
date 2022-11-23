@@ -1,0 +1,13 @@
+Converting script [1 / 1]	[\script\PlayerMove.cs]
+	Fragments : 4
+		[ 0] : Line:   28	InputMethod   GetAxisRaw          	("Horizontal")
+		[ 1] : Line:   92	InputMethod   GetKeyUp            	(KeyCode.Mouse0)
+		[ 2] : Line:  100	InputMethod   GetKey              	(KeyCode.W)
+		[ 3] : Line:  100	InputMethod   GetKey              	(KeyCode.Mouse0)
+
+
+1 scripts modified!
+Overwriting actual scripts...
+	[0 / 1] from  [F:/Unityproject/survival-game/CF2-Data/Script-Backups/2022-11-02-20-36\Assets-After/\script\PlayerMove.cs] to [F:/Unityproject/survival-game/Assets/\script\PlayerMove.cs]
+
+Overwriting COMPLETED!

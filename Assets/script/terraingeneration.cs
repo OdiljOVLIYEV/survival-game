@@ -4,26 +4,29 @@ using UnityEngine;
 
 public class terraingeneration : MonoBehaviour
 {
-	[SerializeField] int eniga;
-	[SerializeField] GameObject grass;
+	[SerializeField] int eniga,boyiga;
+	[SerializeField] GameObject yer,grass;
 	
     // Start is called before the first frame update
     void Start()
     {
-        
+        Generation();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-	    Generation();
-    }
+  
     
 	void Generation(){
 		
 		for(int x=0; x<eniga;x++){
+			for(int y=0; y<boyiga;y++){
+				
+				Instantiate(yer,new Vector2(x,y),Quaternion.identity);
+				
+			}
 			
-			Instantiate(grass,new Vector2(x,0),Quaternion.identity);
+			Instantiate(grass,new Vector2(x,boyiga+0.20f),Quaternion.identity);
+			
 		}
 	}
 }
