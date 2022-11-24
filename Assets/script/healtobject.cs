@@ -26,7 +26,7 @@ public class healtobject : MonoBehaviour
 	public void damage(float amount){
 		Healt-=amount;
 		
-		if(Healt<=0f){
+		if(Healt==0f){
 			
 			textureone.SetActive(false);
 			texturetwo.SetActive(true);

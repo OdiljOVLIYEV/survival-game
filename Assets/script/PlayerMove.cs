@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour
 	public float jumpHeight;
 	Animator anim;
 	Rigidbody2D rb;
-
+	private GameObject cc;
 	
 	[HideInInspector]
 	public float hz;
@@ -40,6 +40,8 @@ public class PlayerMove : MonoBehaviour
 			
 			
 			if(attack==false){
+				cc=GameObject.FindGameObjectWithTag("axe");
+				cc.GetComponent<CircleCollider2D>().enabled=false;
 				anim.SetBool("DownAttack",false);
 				anim.SetBool("upattack",false);
 				anim.SetBool("attack",false);
@@ -48,6 +50,7 @@ public class PlayerMove : MonoBehaviour
 				
 			}
 			if(attack==true){
+				
 				//anim.SetBool("walk",false);
 				anim.SetBool("upattack",false);
 				anim.SetBool("attack",true);
@@ -96,6 +99,9 @@ public class PlayerMove : MonoBehaviour
 		}
 		
 		if(ControlFreak2.CF2Input.GetKeyUp(KeyCode.F)){
+			cc=GameObject.FindGameObjectWithTag("axe");
+			cc.GetComponent<CircleCollider2D>().enabled=true;
+			
 			
 			anim.SetBool("upattack",false);
 			attack=true;

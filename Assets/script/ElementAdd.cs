@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class toshadd : MonoBehaviour
+public class ElementAdd : MonoBehaviour
 {
 	
 	public int coin=0;
@@ -31,11 +31,22 @@ public class toshadd : MonoBehaviour
 			
 			Destroy(col.gameObject,0.1f);
 		
-	}
+		}
+		
+		if(col.gameObject.tag=="yog'och"){
+			
+			coin+=1;
+			
+			
+			Destroy(col.gameObject,0.1f);
+		
+		}
 		
 		
 		
 	}
+	
+	// OnTriggerStay is called once per frame for every Collider other that is touching the trigger.
 	
 	// Sent when another object enters a trigger collider attached to this object (2D physics only).
 	

@@ -27,7 +27,7 @@ public class displayinventar : MonoBehaviour
     void Update()
 	{
     	
-		toshadd add=FindObjectOfType<toshadd>();
+		ElementAdd add=FindObjectOfType<ElementAdd>();
 		tosh=add.coin;
 	   
 		text.text=+tosh+"/20".ToString();
