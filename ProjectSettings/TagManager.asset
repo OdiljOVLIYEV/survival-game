@@ -6,6 +6,7 @@ TagManager:
   tags:
   - weapon
   - ladder
+  - tosh
   layers:
   - Default
   - TransparentFX

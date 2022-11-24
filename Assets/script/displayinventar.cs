@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class displayinventar : MonoBehaviour
 {
+	public static displayinventar inventar;
+	
 	public int healt; 
 	public int daraxt;
 	public int tosh;
@@ -13,13 +15,26 @@ public class displayinventar : MonoBehaviour
 	
     // Start is called before the first frame update
     void Start()
-    {
+	{
+		if(inventar == null){
+			
+			inventar=this;
+		}
         
     }
 
     // Update is called once per frame
     void Update()
-    {
-	    text.text=tosh+"/20".ToString();
+	{
+    	
+		toshadd add=FindObjectOfType<toshadd>();
+		tosh=add.coin;
+	   
+		text.text=+tosh+"/20".ToString();
+	
+	    
     }
+    
+    
+	
 }

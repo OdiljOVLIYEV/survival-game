@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class healtobject : MonoBehaviour
 {
-	private float Healt=40f;
+	public float Healt=40f;
 	public GameObject child;
 	public GameObject textureone;
 	public GameObject texturetwo;
@@ -25,17 +25,23 @@ public class healtobject : MonoBehaviour
     
 	public void damage(float amount){
 		Healt-=amount;
-		if(Healt<=20){
+		
+		if(Healt<=0f){
+			
 			textureone.SetActive(false);
 			texturetwo.SetActive(true);
 			Instantiate(child,gameObject.transform.position,Quaternion.identity);
-			bx.isTrigger=enabled;
-		
-		}
-		if(Healt<=0f){
 			
-			Destroy(gameObject,0.1f);
+			Invoke("call",0.2f);
+			
+			//Destroy(gameObject,0.1f);
 			Debug.Log("dead");
 		}
+	}
+	
+	void call(){
+		
+		bx.isTrigger=enabled;
+		
 	}
 }
