@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8436656778528799974}
   - component: {fileID: 162368393889461357}
   m_Layer: 0
-  m_Name: pixel-grass-ground-stone-blocks-pattern-cubic-pixel-game-background-8bit-gaming-interface-2d-technology-retro-wallpaper-backdrop-with-soil-layer-pebbles-underground-cross-section_8071-7295
+  m_Name: grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
